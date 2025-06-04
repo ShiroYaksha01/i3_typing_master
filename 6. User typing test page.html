@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Typing Test</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f0f0;
+      text-align: center;
+      padding: 40px;
+    }
+
+    .container {
+      background: white;
+      padding: 30px;
+      max-width: 600px;
+      margin: auto;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .sample-text {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+
+    textarea {
+      width: 100%;
+      height: 120px;
+      font-size: 1rem;
+      padding: 10px;
+      box-sizing: border-box;
+      margin-bottom: 15px;
+    }
+
+    input[type="submit"] {
+      background-color: #007bff;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Typing Test</h1>
+    <div class="sample-text">
+      Type the following: <br><br>
+      <strong>The quick brown fox jumps over the  dog.</strong>
+    </div>
+    <form>
+      <textarea placeholder="Start typing here..."></textarea><br>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</body>
+</html>
